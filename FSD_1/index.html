@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog Post</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        h1 {
+            color: darkblue;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .author {
+            color: gray;
+            font-style: italic;
+        }
+        #comment-form {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+        <h1>My First Blog Post</h1>
+        <p class="author">By Vishwesh | August 10, 2025</p>
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" 
+     alt="Laptop and code workspace" 
+     class="img-fluid rounded mb-3" 
+     style="max-height: 400px; object-fit: cover; width: 100%;">
+        <p>Today marks the start of my journey into web development. I’ve always been curious about how websites are built and how a few lines of code can turn into something interactive and beautiful on the screen. This blog will be my place to share what I learn along the way.</p>
+
+        <p>In this first post, I’ve created a simple responsive web page using HTML, CSS, and Bootstrap. It may look basic now, but it’s a foundation I can build upon. My goal is to eventually make fully functional websites that not only look good but also provide a great user experience.</p>
+
+        <p>If you’re also learning web development, I encourage you to keep experimenting. The more you practice, the more comfortable you’ll get. Every mistake is a lesson, and every small success is a step forward. Here’s to the start of something exciting!</p>
+
+            <h3>Leave a Comment</h3>
+            <form id="comment-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Comment:</label>
+                    <textarea id="comment" class="form-control" rows="4" placeholder="Write your comment..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="background-color: darkblue;">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
