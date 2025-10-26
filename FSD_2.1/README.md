@@ -18,4 +18,6 @@ This project demonstrates basic form validation including username, email, phone
     - At least **1 special character** (`&`, `$`, `#`, `@`)
   - Password and Confirm Password must match
 
-FSD_2.1\form.png
+![Blog Screenshot][def]
+
+[def]: form.png
