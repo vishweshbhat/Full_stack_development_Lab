@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation & jQuery Demo</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Welcome to DOM Manipulation Demo</h1>
+    <p class="info">This paragraph will be modified using JavaScript.</p>
+
+    <img id="demoImage" src="https://via.placeholder.com/200x120?text=Image+1" alt="Demo Image">
+
+    <div class="btn-group">
+      <button id="textChangeBtn">Change Text</button>
+      <button id="styleChangeBtn">Change Style</button>
+      <button id="imageChangeBtn">Change Image</button>
+      <button id="addNodeBtn">Add Text Node</button>
+      <button id="deleteNodeBtn">Delete Node</button>
+    </div>
+
+    <form id="userForm">
+      <h2>Form Example (jQuery)</h2>
+      <input type="text" id="name" placeholder="Enter Name">
+      <input type="email" id="email" placeholder="Enter Email">
+      <button type="button" id="formSubmitBtn">Submit Form</button>
+    </form>
+
+    <button id="jqueryBtn">Click to Change with jQuery</button>
+
+    <div id="output"></div>
+  </div>
+</body>
+</html>
