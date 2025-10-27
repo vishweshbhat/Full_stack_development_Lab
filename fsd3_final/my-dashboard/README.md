@@ -93,8 +93,9 @@ Components include consistent spacing, rounded corners, and subtle hover transit
 🖼️ Project Snapshot
 
 Below is a preview of the final UI layout:
-![screenshot](IMAGE.png)
+![Screenshot][def]
 
+[def]: IMAGE.png
 🪪 License
 
 This project is open for educational use only.
